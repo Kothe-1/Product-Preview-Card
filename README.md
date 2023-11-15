@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: 
+- Live Site URL: https://kothe-1.github.io/Product-Preview-Card/
 
 ## My process
 
