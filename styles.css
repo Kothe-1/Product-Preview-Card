@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Fraunces:opsz@9..144&display=swap');
+@media (max-width: 650px) {
+    div.container {
+      display: flex;
+      display: -ms-flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    div#perfume {
+      order: 2;
+      border-radius: 0px 0px 20px 20px;
+    }
+    img.image {
+      order: 1;
+      border-radius: 20px 20px 20px 20px;
+      display: none;
+    }
+    img.mobile-image {
+        order: 1;
+    }
+  }
+
+  @media (min-width: 650px) {
+
+    img.mobile-image {
+        display: none;
+    }
+
+    div#perfume {
+        border-radius: 0px 20px 20px 0px;
+    }
+  }
+
+body {
+    background-color: hsl(30,38%,92%);   
+}
+
+div.container { 
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+
+div#perfume {
+    width: 350px;
+    background-color: white;   
+    box-shadow: 1px 1px 5px black;
+}
+
+img.image {
+    width: 350px;   
+    box-shadow: 1px 1px 5px black;
+    border-radius: 20px 0px 0px 20px;
+}
+
+img.mobile-image {
+    width: 350px;   
+    box-shadow: 1px 1px 5px black;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+p {
+    padding: 0px 50px 0px 30px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    text-align:justify;
+}
+
+.perfume {
+    letter-spacing: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+#price1 {
+    display: inline-block;
+    color: hsl(158,36%,37%);
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Fraunces', Helvetica, sans-serif;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+#price2 {
+    display: inline-block;
+    text-decoration: line-through;
+    margin-left: 0px;
+    padding-bottom: 0px;
+}
+
+h1 {
+    padding: 0px 50px 0px 30px;
+    margin-top: 0px;
+    font-family: 'Fraunces', Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+button {
+    padding: 12px 60px 12px 60px;
+    background-color: hsl(158,36%,37%);
+    margin: auto;
+    margin-bottom: 10px;
+    left: 50%;
+    right: 50%;
+    display: block;
+    font-family: 'Fraunces', Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    border: 0px;  
+}
+
+div.button button:hover {
+    background-color: hsl(158, 88%, 13%);
+}
+
+.icon {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+div.price {
+    display: inline-block
+}
